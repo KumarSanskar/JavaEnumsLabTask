@@ -9,4 +9,7 @@ public enum MonthNames {
     }
 }
 
+class Main {
+}
+
 
