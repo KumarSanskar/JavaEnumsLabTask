@@ -21,7 +21,7 @@ class Main {
         int presentDateOfMonth = new GregorianCalendar().get(Calendar.DAY_OF_MONTH);
         int numberOfDaysInMonth = new GregorianCalendar().getActualMaximum(Calendar.DAY_OF_MONTH);
         int numberOfDaysLeft = numberOfDaysInMonth - presentDateOfMonth;
-        System.out.println(numberOfDaysLeft);
+        System.out.println("There are " + numberOfDaysLeft + " left in present month.");
     }
 }
 
