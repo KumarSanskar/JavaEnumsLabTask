@@ -10,6 +10,9 @@ public enum MonthNames {
 }
 
 class Main {
+    public static void main(String[] args) {
+
+    }
 }
 
 
