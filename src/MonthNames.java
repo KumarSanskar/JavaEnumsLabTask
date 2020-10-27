@@ -10,6 +10,10 @@ public enum MonthNames {
     MonthNames(int numberOfDaysInMonth) {
         this.numberOfDaysInMonth = numberOfDaysInMonth;
     }
+
+    public int getNumberOfDaysInMonth() {
+        return numberOfDaysInMonth;
+    }
 }
 
 class Main {
