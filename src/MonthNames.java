@@ -15,6 +15,9 @@ public enum MonthNames {
 class Main {
     public static void main(String[] args) {
         int presentDateOfMonth = new GregorianCalendar().get(Calendar.DAY_OF_MONTH);
+        int numberOfDaysInMonth = new GregorianCalendar().getActualMaximum(Calendar.DAY_OF_MONTH);
+        int numberOfDaysLeft = numberOfDaysInMonth - presentDateOfMonth;
+        System.out.println(numberOfDaysLeft);
     }
 }
 
